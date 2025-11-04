@@ -1,17 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Cadastro de Usuário</title>
-</head>
-<body>
-  <h2>Cadastro de Usuário</h2>
-  <form method="POST" action="">
-    Nome: <input type="text" name="nome" required><br><br>
-    E-mail: <input type="email" name="email" required><br><br>
-    <input type="submit" value="Cadastrar">
-  </form>
-
-
 
   <?php
   if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -32,3 +18,19 @@
   ?>
 </body>
 </html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cadastro de Usuário</title>
+</head>
+<body>
+  <h2>Cadastro de Usuário</h2>
+  <form method="POST" action="">
+    Nome: <input type="text" name="nome" required><br><br>
+    E-mail: <input type="email" name="email" required><br><br>
+    <input type="submit" value="Cadastrar">
+  </form>
+
+

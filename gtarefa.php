@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Gerenciar Tarefas</title>
-</head>
-<body>
-  <h2>Quadro Kanban</h2>
-
   <?php
   $con = new mysqli("localhost", "root", "", "kanban");
 
@@ -32,3 +24,13 @@
   ?>
 </body>
 </html>
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gerenciar Tarefas</title>
+</head>
+<body>
+  <h2>Quadro Kanban</h2>
